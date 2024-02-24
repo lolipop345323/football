@@ -1,0 +1,233 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    cursor: url( ../cursor/cursor.cur), auto;
+}
+
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    
+}
+
+
+p {
+    transition: 0.5s;
+}
+
+.contact-info:hover p {
+    color: #39930d;
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+.logo p {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+    
+.logo b {
+    display: block;
+    color: #39930d;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.contact-info b {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.partners p {
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #39930d;
+}
+
+.partners a {
+    color: #343434;
+    font-size: 14px;
+    line-height: 2.1em;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #39930d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.football-info p {
+    color: #343434;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+
+main p:hover {
+    color: #fff;
+    transform: scale(1.05);
+    background-color: greenyellow;
+}
+
+
+.sociality img:hover {
+    transform: scale(1.5); 
+}
+
+
+.sociality a > img {
+    transition: 0.5s;
+}
+
+
+
+.wrapper {
+    margin: auto;
+    padding: 15px 15px 45px 15px;
+    min-width: 300px;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.album img {
+    width:100%;
+    max-height: 240px;
+    min-height: 200px;
+}
+
+.images-block img {
+    width:24%;
+    min-width: 225px;
+    min-height: 120px;
+    flex-wrap: wrap;
+    cursor: url( ../cursor/cursor.cur), auto;
+
+}
+
+.images-block {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 10px;
+
+}
+
+main {
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.partners {
+    margin-right: 20px;
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+.work_graph p, .number a {
+    color: #5a5a5a;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.logo, .contact-info, .number ,.work_graph {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.number img,.contact-info img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.partners {
+    min-width: 300px;
+}
+
+
+li:hover a {
+    text-decoration: none;
+}
+
+.sociality a {
+    text-decoration: none;
+}
+
+
+footer {
+    padding: 10px 0px;
+    align-items: center;
+    background-color: #39930d;
+
+
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.work_graph, .number {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-info img {
+    margin-right:10px;
+}
+
+.contact-info {
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.football-info {
+    max-width:70% ;
+    min-width: 300px;
+}
