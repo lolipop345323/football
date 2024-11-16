@@ -1,12 +1,14 @@
 
-
+html {
+    font-size: 0.9px;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f3f3f3;
-    cursor: url( ../cursor/cursor.cur), auto;
+    cursor: url(../cursor/cursor.cur), auto;
 }
 
 
@@ -16,8 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 20px;
-    
+    column-gap: 20rem;
+
 }
 
 
@@ -28,9 +30,9 @@ p {
 .contact-info:hover p {
     color: #39930d;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 20rem;
     background-color: aqua;
-    
+
 }
 
 
@@ -39,25 +41,25 @@ p {
 
 .logo p {
     color: #5a5a5a;
-    font-size: 14px;
+    font-size: 14rem;
 }
-    
+
 .logo b {
     display: block;
     color: #39930d;
-    font-size: 24px;
+    font-size: 24rem;
     text-transform: uppercase;
 }
 
 .contact-info b {
     color: #5a5a5a;
-    font-size: 14px;
+    font-size: 14rem;
 }
 
 .partners p {
-    padding: 15px 20px;
+    padding: 15rem 20rem;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15rem;
     text-transform: uppercase;
     font-weight: bold;
     background-color: #39930d;
@@ -65,26 +67,26 @@ p {
 
 .partners a {
     color: #343434;
-    font-size: 14px;
+    font-size: 13rem;
     line-height: 2.1em;
     text-transform: uppercase;
 }
 
 h1 {
     color: #39930d;
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: bold;
 }
 
 .football-info p {
     color: #343434;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.5em;
 }
 
 footer p {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1em;
 }
 
@@ -97,11 +99,11 @@ main p:hover {
 
 
 .sociality img:hover {
-    transform: scale(1.5); 
+    transform: scale(1.5);
 }
 
 
-.sociality a > img {
+.sociality a>img {
     transition: 0.5s;
 }
 
@@ -109,80 +111,82 @@ main p:hover {
 
 .wrapper {
     margin: auto;
-    padding: 15px 15px 45px 15px;
-    min-width: 300px;
+    padding: 15rem 15rem 45rem 15rem;
+    min-width: 300rem;
     width: 80%;
     background-color: #ffffff;
 }
 
 .album img {
-    width:100%;
-    max-height: 240px;
-    min-height: 200px;
+    width: 100%;
+    max-height: 240rem;
+    min-height: 200rem;
 }
 
 .images-block img {
-    width:24%;
-    min-width: 225px;
-    min-height: 120px;
-    flex-wrap: wrap;
-    cursor: url( ../cursor/cursor.cur), auto;
+    width: 100%;
+    min-width: 165px;
+    min-height: 120rem;
+    cursor: url(../cursor/cursor.cur), auto;
 
 }
 
 .images-block {
-    display: flex;
-    padding-top: 10px;
-    justify-content: space-between ;
+    display: flex; 
     flex-wrap: wrap;
-    row-gap: 15px;
-    column-gap: 10px;
-    
+    padding-top: 10rem;
+    justify-content: space-between;
+    row-gap: 15rem;
+    column-gap: 10rem;
+
 }
 
 main {
     display: flex;
-    padding-top: 30px;
+    padding-top: 30rem;
     flex-wrap: wrap;
-    
+
 }
 
 
-.partners {
-    min-width: 300px;
-}
+
 
 
 .partners {
-    margin-right: 20px;
-    width: 300px;
+    margin-right: 20rem;
+    width: 225rem;
 }
 
 ul {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 20rem;
 }
 
-.work_graph p, .number a {
+.work_graph p,
+.number a {
     color: #5a5a5a;
-    font-size: 14px;
+    font-size: 14rem;
     text-decoration: none;
 }
 
-.logo, .contact-info, .number ,.work_graph {
+.logo,
+.contact-info,
+.number,
+.work_graph {
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
+    margin-right: 10rem;
+    width: 40rem;
+    height: 40rem;
 }
 
-.number img,.contact-info img {
-    width: 20px;
-    height: 20px;
+.number img,
+.contact-info img {
+    width: 20rem;
+    height: 20rem;
 }
 
 
@@ -195,11 +199,12 @@ li:hover a {
 
 .sociality a {
     text-decoration: none;
+    margin-left: 5px;
 }
 
 
 footer {
-    padding: 0px 0px;
+    padding: 0rem 0rem;
     align-items: center;
     background-color: #39930d;
 }
@@ -211,25 +216,100 @@ footer {
     margin: auto;
     width: 80%;
     flex-wrap: wrap;
-    column-gap: 10px;
+    column-gap: 10rem;
 }
 
-.work_graph, .number {
+.work_graph,
+.number {
     display: flex;
     align-items: center;
 }
 
 
 .contact-info img {
-    margin-right:10px;
+    margin-right: 10rem;
 }
 
 .contact-info {
     flex-wrap: wrap;
-    column-gap: 30px;
+    column-gap: 30rem;
 }
 
 .football-info {
-    max-width:70% ;
-    min-width: 300px;
+    min-width: 300rem;
 }
+
+img {
+    object-fit: cover;
+    display: inline-block;
+}
+
+.number {
+    margin-bottom: 10rem;
+}
+
+
+@media screen and (min-width:900px) {
+    .images-block {
+        flex-wrap: nowrap;
+    }
+
+    .images-block img {
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    .images-block img {
+        width: 48%;
+    }
+
+}
+
+@media screen and (min-width:2000px) {
+    html {
+        font-size: 1.5px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .football-info {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .football-info {
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 388px) {
+    .number {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 1px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .partners {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .partners {
+        width: 20%;
+    }
+}
+
+
